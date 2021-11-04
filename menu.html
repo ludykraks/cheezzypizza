@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Cheezzy Pizza Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find Cheezzy Pizza menu here, featuring the tasty pizzas, 
+    burgers, jollof rice, fried rice, sandwiches, drinks and many more.">
+    <link href="css/custom.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#ffcc16">
+    <meta property="og:title" content="Cheezzy Pizza, Your Pizza, Your Way">
+    <meta property="og:url" content="https://cheezzypizza.com/menu">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Welcome to Cheezzy Pizza, your premier 
+          Pizza Place in Ghana. Ring Road, Osu, Dansoman, Kasoa, Adenta, Ashaiman, Spintex, Haatso and Hansonic DC">
+    <meta property="og:image" content="https://cheezzypizza.com/images/cheezzypizza-logo-1.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="images/favicon-120.png" sizes="120x120">
+    <style>
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <h1 style="text-align: center">Check out the new Cheezzy Pizza Menu</h1>
+
+    <nav class="main-menu">
+        <ul class="menu-links">
+            <li>
+                <a href="docs/cheezzy-pizza-online-menu-aug-21.pdf">🍕 Menu</a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <footer class="container-fluid text-center" style="margin-top: 20px;">
+
+        <p> &copy; 2021 <a href="https://cheezzypizza.com">Cheezzy Pizza</a>. All Rights Reserved.</p>
+
+    </footer> <!-- end of footer -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="109368220837922" theme_color="#0A7CFF"
+        logged_in_greeting="Hi! Want to order pizza 🍕?" logged_out_greeting="Hi! Want to order pizza 🍕?">
+    </div>
+
+</body>
+
+</html>

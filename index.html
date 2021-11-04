@@ -2,178 +2,119 @@
 <html lang="en-US">
 
 <head>
-    <title>Cheezzy Pizza Website - Ghana</title>
+    <title>Cheezzy Pizza - The Best Pizzas in Ghana</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eddys Pizza introduces Cheezzy Pizza, your new Premium Pizza Place.
-    Branches: Ring Road, Osu, Dansoman, Kasoa, Adenta, Ashaiman, Spintex, Haatso">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    Branches: Ring Road, Osu, Dansoman, Kasoa, Adenta, Ashaiman, Spintex, Haatso, Hansonic DC, Lapaz">
     <link href="css/custom.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <meta name="theme-color" content="#ffcc16">
     <meta property="og:title" content="Cheezzy Pizza, Your Pizza, Your Way">
     <meta property="og:url" content="https://cheezzypizza.com/">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Welcome to Cheezzy Pizza, your premier 
           Pizza Place in Ghana. Ring Road, Osu, Dansoman, Kasoa, Adenta, Ashaiman, Spintex and Haatso">
-    <meta property="og:image" content="https://cheezzypizza.com/images/cheezzypizza-logo-1.png">
-    <style type="text/css">
-        .columnbg1 {
-            padding: 10em 0em 12em;
-            color: #ffffff;
-        }
-
-        .columnbg2 {
-            padding: 6em 0em;
-            background-color: #ffffff;
-        }
-
-        .columnbg2 p {
-            font-size: 1.21em;
-            line-height: 1.8em;
-            color: #3a3a3a;
-            padding: 4px;
-        }
-
-        .columnbg2 h2 {
-            text-align: center;
-        }
-
-        .columnbg2 h3 {
-            color: #ff4200;
-            text-align: center;
-        }
-
-        .columnbg3 {
-            padding: 6em 0em;
-            text-align: center;
-            color: #ffffff;
-        }
-
-        .landpagebg1 {
-            background: #ffcc16
-        }
-
-        .landpagebg2 {
-            background: #010708
-        }
-
-        .landbutton {
-            display: inline-block;
-            border-radius: 15px;
-            padding: 6px 18px;
-            background-color: #ff4200;
-            margin: 15px 1px;
-            font-size: 1.25em;
-            color: #ffffff;
-            transition-duration: 0.4s;
-        }
-
-        .landbutton:hover {
-            color: #ff4200;
-            background-color: #e2dddd;
-            text-decoration: none;
-        }
-
-        .videoWrapper {
-            position: relative;
-            padding-bottom: 56.25%;
-            padding-top: 25px;
-            height: 0;
-        }
-
-        .videoWrapper iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        @media (max-width:600px) {
-            .columnbg1 {
-                padding: 2.8em 0em;
-            }
-
-            .columnbg2 {
-                padding: 3em 0em;
-            }
-
-            .columnbg3 {
-                padding: 3em 0em;
-            }
-
-
-            .landpagebg2 {
-                background: #010a0e;
-            }
-        }
-    </style>
+    <meta property="og:image" content="https://cheezzypizza.com/images/cheezzypizza-logo-3.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="apple-touch-icon" href="images/favicon-120.png" sizes="120x120">
 </head>
 
 <body>
 
-     <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v8.0'
-          });
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v8.0'
+            });
         };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
-    <header class="container-fluid text-center" id="topheader">
+    <header class="logo-head">
         <a href="index">
-            <img src="images/cheezzypizza-logo-1.png" alt="Cheezzy Pizza Logo" class="img-responsive"
-                style="display:inline;">
+            <img src="images/cheezzypizza-logo-2.png" alt="Cheezzy Pizza Logo" class="logo">
         </a>
     </header>
+    <hr>
+    <nav class="main-menu">
+        <h2>Quick Links</h2>
+        <ul class="menu-links">
+            <li>
+                <a href="docs/cheezzy-pizza-online-menu-aug-21.pdf">🍕 Menu</a>
+            </li>
+            <li>
+                <a href="branches">📍 Branches</a>
+            </li>
+            <li>
+                <a href="tel:+233552498103">📞 Contact Us</a>
+            </li>
+            <li>
+                <a href="https://m.me/cheezzypizza?ref=w13118050">🏆 Play Friday Trivia</a>
+            </li>
+            <li>
+                <a href="about">ℹ️ About Us</a>
+            </li>
+        </ul>
 
-    <div class="container-fluid landpagebg1">
-        <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 columnbg1">
-                <div class="row">
-                    <div class="videoWrapper">
-                        <iframe width="1349" height="488" src="https://www.youtube.com/embed/wt5v0g4sNxI"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
+    </nav>
 
-                </div>
-            </div>
+    <section class="video-em">
+        <div class="videoWrapper">
+            <iframe width="1349" height="488" loading="lazy"
+                title="Enjoy Everyday Life with Cheezzy Pizza - Nana Ama McBrown"
+                src="https://www.youtube.com/embed/DZebi4tQBbs" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
         </div>
-    </div> <!-- end of 1st Container -->
+    </section>
 
-    <div class="container-fluid landpagebg2 text-center">
-        <div class="row">
-            <div class="col-xs-10 col-xs-offset-1" style="padding-top: 20px; padding-bottom: 20px;">
-                <h2 style="color: #ffffff;">Website Under Construction. Coming Soon</h2>
-            </div>
+    <section class="pic-gallery">
+        <h2>Latest Updates</h2>
+        <img src="images/cheezzypizza-gram-22.jpg" alt="McCheezzy Combo - McBrown" loading="lazy">
+        <img src="images/cheezzypizza-gram-13.jpg" alt="Buy and Get One Free - Cheezzy Pizza" loading="lazy">
+        <img src="images/cheezzypizza-gram-20.jpg" alt="Cheezzy Pizza Lapaz" loading="lazy">
+        <img src="images/cheezzypizza-gram-16.jpg" alt="Nana Ama McBrown - Cheezzy Pizza" loading="lazy">
+        <img src="images/cheezzypizza-gram-5.jpg" alt="Cheezzy Pizza pizza 1" loading="lazy">
+        <img src="images/cheezzypizza-gram-3.jpg" alt="Cheezzy Pizza" loading="lazy">
+        <img src="images/cheezzypizza-gram-9.jpg" alt="Cheezzy Pizza" loading="lazy">
+        <img src="images/cheezzypizza-gram-1.jpg" alt="Cheezzy Pizza" loading="lazy">
+        <img src="images/cheezzypizza-gram-4.jpg" alt="Cheezzy Pizza Jollof Rice" loading="lazy">
+        <img src="images/cheezzypizza-gram-2.jpg" alt="Cheezzy Pizza Fried Rice" loading="lazy">
+    </section>
+
+
+    <footer>
+        <h3>Let's Get Social</h3>
+        <div class="social">
+            <a href="https://www.facebook.com/cheezzypizza" target="_blank" rel="noopener"><img
+                    src="images/facebook-icon-1.png" width="25" alt="facebook-icon"></a>
+            <a href="https://www.instagram.com/cheezzypizza" target="_blank" rel="noopener"><img
+                    src="images/instagram-icon-1.png" width="25" alt="instagram-icon"></a>
+            <a href="https://www.twitter.com/cheezzypizza" target="_blank" rel="noopener"><img
+                    src="images/twitter-icon-1.png" width="25" alt="instagram-icon"></a>
         </div>
-    </div> <!-- end of 2nd Container -->
+        <p> Send us <a href="mailto:cheezzypizzaofficial@gmail.com">an email</a></p>
+        <p> &copy; 2021 <a href="#">Cheezzy Pizza</a>. All Rights Reserved.</p>
 
-
-    <footer class="container-fluid text-center" style="margin-top: 20px;">
-
-        <p> &copy; 2020 <a href="#topheader" style="color:#ffcc16;">Cheezzy Pizza</a>. All Rights Reserved.</p>
-      
     </footer> <!-- end of footer -->
-   <div class="fb-customerchat" attribution=setup_tool page_id="109368220837922" theme_color="#0A7CFF" logged_in_greeting="Hi! Want to order pizza 🍕?" logged_out_greeting="Hi! Want to order pizza 🍕?">
-   </div>
+    <div class="fb-customerchat" attribution=setup_tool page_id="109368220837922" theme_color="#0A7CFF"
+        logged_in_greeting="Hi! Want to order pizza 🍕?" logged_out_greeting="Hi! Want to order pizza 🍕?">
+    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- What are you looking for? Since you are here, know this site was designed and developed Ludvic -->
+    <!-- You can find me on Twitter @ludykraks -->
+
 </body>
 
 </html>
