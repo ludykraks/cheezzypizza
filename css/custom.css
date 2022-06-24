@@ -252,5 +252,5 @@ footer {
 
          .core, .about {padding: 13px 20px;}
 
-         .faq-qs { grid-column: 3 / -3;}
+         .faq-qs { grid-column: 2 / -2;}
 }
