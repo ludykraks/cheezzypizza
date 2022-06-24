@@ -129,6 +129,13 @@ hr {background: #ffffff;
 
 /* details */
 
+summary {
+    outline: none;
+    font-size: 18px;
+    padding: 13px;
+    display: list-item;
+}
+
 details {
     border: 1px solid;
     cursor: pointer;
@@ -136,12 +143,11 @@ details {
     margin-top: 10px;
 }
 
-summary {
-    outline: none;
-    font-size: 18px;
-    padding: 13px;
-    display: list-item;
+details p {
+    padding: 2px 5px;
+    font-size: 1.2em;
 }
+
 
 details[open] {
     padding: 0;
