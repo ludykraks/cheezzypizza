@@ -152,6 +152,12 @@ details[open] summary {
     margin-bottom: 0;
 }
 
+.faqs {display:grid;
+       grid-template-columns: repeat(12, 1fr);
+    }
+
+
+.faq-qs { grid-column: 2 / -2;}
 
 /* YouTube Embed */
     
