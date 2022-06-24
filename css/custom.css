@@ -124,7 +124,33 @@ hr {background: #ffffff;
 .branch a {
     color: #e6e2ff;
     text-decoration: none;
-}          
+} 
+
+
+/* details */
+
+details {
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+summary {
+    outline: none;
+    font-size: 16px;
+    padding: 13px;
+    display: list-item;
+}
+
+details[open] {
+    padding: 0;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0;
+}
 
 
 /* YouTube Embed */
