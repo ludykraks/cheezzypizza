@@ -212,6 +212,40 @@ grid-template-columns: 1fr 1.2fr;
 column-gap: 20px;
 }
 
+
+.careers-menu {
+    padding: 15px 20px;
+    background: var(--yellow);
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu-links {
+    display: grid;
+    gap: 25px 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0;
+}
+
+.menu-links li {
+    list-style: none;
+    background: var(--black);
+    border-radius: 5px;
+}
+
+.menu-links li:hover {
+    background: var(--red);
+    transition: .300s;   
+}
+
+.menu-links a {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color:var(--whitetext);    
+}
+
 /* footer */
 
 footer {
