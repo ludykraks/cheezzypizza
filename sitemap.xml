@@ -34,6 +34,20 @@
   <loc>https://cheezzypizza.com/careers</loc>
   <priority>0.80</priority>
 
+</url> 
+
+<url>
+
+  <loc>https://cheezzypizza.com/promo</loc>
+  <priority>0.80</priority>
+
+</url>
+
+<url>
+
+  <loc>https://cheezzypizza.com/menu</loc>
+  <priority>0.80</priority>
+
 </url>        
 
 </urlset>
